@@ -1,0 +1,39 @@
+$primary: #006699;
+
+h2 {
+  color: $primary;
+}
+
+.sliderContainer {
+  position: relative;
+  height: 50%;
+  width: 100%;
+
+  .sliderSlideWrapper {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+
+    .arrowContainer .arrowLeft {
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      left: 0;
+    }
+
+    .arrowContainer .arrowRight {
+      width: 20px;
+      height: 50px;
+      position: absolute;
+      right: 0;
+    }
+
+    .slideContainer {
+      float: left;
+      width: 10%;
+      height: 100%;
+      background-color: #006699;
+    }
+
+  }
+}
