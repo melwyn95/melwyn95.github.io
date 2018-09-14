@@ -18,10 +18,10 @@
     "css-loader": "^0.23.1",
     "expect": "^1.20.1",
     "node-libs-browser": "^1.0.0",
-    "node-sass": "^3.8.0",
-    "react": "^15.1.0",
+    "node-sass": "latest",
+    "react": "latest",
     "react-addons-test-utils": "^15.1.0",
-    "react-dom": "^15.1.0",
+    "react-dom": "latest",
     "react-redux": "^4.4.5",
     "redux": "^3.5.2",
     "redux-logger": "^2.6.1",
@@ -35,7 +35,10 @@
     "webpack-hot-middleware": "^2.11.0",
     "uuid": "latest",
     "prop-types": "latest",
-    "lodash": "latest"
+    "lodash": "latest",
+    "@material-ui/core": "latest",
+    "classNames": "latest",
+    "alertifyjs": "latest"
   },
   "devDependencies": {
     "babel-plugin-react-transform": "^2.0.2",

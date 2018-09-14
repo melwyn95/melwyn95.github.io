@@ -1,12 +1,14 @@
 import {combineReducers} from "redux";
-import Users from "./reducer-users";
-import ActiveUser from "./reducer-active-user";
 import Slides from "./reducer-slides";
+import DropDown from "./reducer-dropdown";
+import FinishButton from "./reducer-finish-button";
+import LoginStatus from "./reducer-login";
 
 const allReducers = combineReducers({
-  users: Users,
-  activeUser: ActiveUser,
-  slides: Slides
+  slides: Slides,
+  dropDown: DropDown,
+  finishButton: FinishButton,
+  loginStatus: LoginStatus
 });
 
 export default allReducers;

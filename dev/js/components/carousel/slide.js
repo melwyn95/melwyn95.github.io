@@ -3,12 +3,13 @@ import PropTypes from "prop-types";
 
 class Slide extends Component{
 
-
   render() {
-    let oData = this.props.data;
+    let oSlide = this.props.data;
 
-    return (<div className="slideContainer" key={oData.id}>
-      {oData.text}
+    return (<div className="slideContainer">
+      <div className="slideContent">
+        {oSlide.data}
+      </div>
     </div>);
   }
 }
