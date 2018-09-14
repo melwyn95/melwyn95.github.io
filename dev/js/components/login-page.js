@@ -17,7 +17,7 @@ const oPaperStyle = {
   margin: "auto",
   padding: "10px",
   position: "absolute",
-  height: "28%",
+  height: "174px",
   top: "0",
   bottom: "0",
   left: "0",
